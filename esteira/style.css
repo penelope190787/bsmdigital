@@ -97,7 +97,7 @@ main > section:nth-of-type(7) { background: #73461f; }
 main > section:nth-of-type(8) { background: #0d0d0d; }
 main > section:nth-of-type(9) { background: #402004; }
 main > section:nth-of-type(10) {
-  background-image: linear-gradient(rgba(115, 70, 31, 0.72), rgba(115, 70, 31, 0.72)), url("images/mapa-decisao.png");
+  background-image: linear-gradient(rgba(115, 70, 31, 0.72), rgba(115, 70, 31, 0.72)), url("/esteira/images/mapa-decisao.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
