@@ -34,13 +34,8 @@ Transcript365 (transcript365.com), página dedicada ao TikTok: https://www.trans
 - O carrinho de compra do TikTok Shop é laranja, nunca chamar de "carrinho amarelo".
 - Não usar "link na vitrine". Usar "é só clicar aqui embaixo no carrinho" como chamada para ação padrão.
 
-## Biblioteca de Estruturas (15 estruturas, aprovadas, prontas para o material final)
-Grupo prova e transformação: Antes e Depois, Unboxing com Prova, Depoimento Encenado.
-Grupo dor e solução: Problema-Agitação-Solução, Erro Comum + Correção, Confissão/Segredo Revelado.
-Grupo comparação e decisão: Comparação de Preço, "Já usei de tudo, até que...", Lista Rápida de 3 Motivos.
-Grupo identificação: POV Problema-Resolução, Reação Genuína, Storytime.
-Grupo descoberta: Achado de Nicho, Pergunta Retórica + Resposta, Demonstração Rápida.
-Cada uma tem: quando usar, esqueleto por segundos, exemplo preenchido. Conteúdo completo na conversa da sessão que criou este arquivo; falta apenas passar para o formato final do kit (PDF/página).
+## Biblioteca de Estruturas
+Concluída e aprovada, 15 estruturas completas (quando usar, esqueleto por segundos, exemplo preenchido). Conteúdo integral em `.claude/memory/biblioteca-estruturas-tiktok-shop.md`. Falta apenas passar para o formato final do kit (PDF/página).
 
 ## Próximo passo em andamento
-Biblioteca de Estruturas concluída. Seguir para o Banco de 100 Ganchos (order bump), organizado em 8 intenções ainda não definidas.
+Seguir para o Banco de 100 Ganchos (order bump), organizado em 8 intenções ainda não definidas.
