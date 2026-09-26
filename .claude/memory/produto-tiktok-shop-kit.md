@@ -75,5 +75,7 @@ Copy escrita com o skill /direct-response-copy, seguindo edições detalhadas da
 
 Ponto que ajustei e sinalizei para a Penélope: a headline que ela pediu tinha "estrutura validada nos EUA", removi essa parte porque não existe validação real por trás dessa afirmação, e isso contradiz o próprio Checklist de Segurança que construímos (proibe alegação sem comprovação). Headline final: "Não invente o que vai gravar. Use a estrutura que faz vídeos viralizarem e venderem muito!"
 
+Segunda rodada de ajustes na página de vendas aplicada: espaçamento entre seções reduzido, headline com quebra de linha, itens do kit explicados individualmente (sem "Comece por Aqui" nessa lista específica), bônus com nova frase de abertura, seção de exemplo trocada por comparação antes/depois (prompt genérico vs. Radar), FAQ "É curso?" incluída, e caixa de oferta agora lista tudo que a pessoa recebe antes de mostrar De R$97 por R$57.
+
 ## Próximo passo em andamento
 Falta: link real de checkout da Kiwify para os botões da página de vendas, e decidir se a Biblioteca de Estruturas (15 estruturas já escritas, ver biblioteca-estruturas-tiktok-shop.md) vira uma aba dentro do mesmo produto ou fica só no PDF/guia.
