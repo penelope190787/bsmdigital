@@ -24,7 +24,8 @@ Transcript365 (transcript365.com), página dedicada ao TikTok: https://www.trans
 ## Entregáveis já construídos
 - Deck do esqueleto do infoproduto: https://claude.ai/artifact/A72RdewsKF8KNGZ5dpeAWE
 - Ferramenta interativa do Modelador (testada e aprovada): https://claude.ai/artifact/C9oQkuqCeoMHM5qUpDg5iv
-- Banco de 100 Ganchos, produto do order bump, com botão de copiar em cada gancho: https://claude.ai/artifact/TJzXHikfrw8Dp7bJHRnrr1
+- Banco de 100 Ganchos, produto do order bump (arquivo separado do Modelador, título sem a expressão "order bump"), com botão de copiar em cada gancho: https://claude.ai/artifact/TJzXHikfrw8Dp7bJHRnrr1
+- Exemplos Completos, 3 produtos com dados, estrutura identificada e roteiro final: https://claude.ai/artifact/K6oTZeCFGndycZNrTcf3EP
 
 ## Pendências antes de produzir o material final
 - Confirmar regras atuais da TikTok Shop sobre alegações, comparações e conteúdo original.
@@ -41,5 +42,11 @@ Concluída e aprovada, 15 estruturas completas (quando usar, esqueleto por segun
 ## Banco de 100 Ganchos
 Concluído e publicado como produto próprio (order bump), 100 ganchos em 8 intenções: Curiosidade, Identificação com a dor, Urgência e escassez, Prova social, Confronto e contra-senso, Economia, Novidade e descoberta, Pergunta direta. Lacunas padrão: [produto], [problema], [preço], [alternativa cara], [tarefa], [crença comum], [ação relacionada ao problema].
 
+## Exemplos Completos
+Concluído: 3 produtos (escova secadora iônica, organizador de temperos giratório, kit de faixas elásticas), cada um com dados do produto, estrutura identificada (marcada como demonstração, não transcrição real) e roteiro final. Publicado como página própria.
+
+## Hospedagem e entrega
+Cada peça interativa (Modelador, Banco de Ganchos, Exemplos Completos) é hoje um artifact do Claude, privado por padrão. Para vender separado, a Penélope precisa: (1) usar o Share de cada página para gerar um link público, com a ressalva de confirmar os termos de uso do Claude para revenda comercial desse link, ou (2) hospedar o HTML em uma plataforma própria (Vercel, Netlify, GitHub Pages ou domínio próprio) para ter um link estável e com a marca dela. Ainda não decidido qual caminho seguir.
+
 ## Próximo passo em andamento
-Falta: Manual de Adaptação e Gravação (bônus do Modelador), Checklist de Segurança (bônus, depende de checar regras da TikTok Shop e do CONAR), e Exemplos completos (3 exemplos ponta a ponta).
+Falta: Manual de Adaptação e Gravação (bônus do Modelador), Checklist de Segurança (bônus, depende de checar regras da TikTok Shop e do CONAR).
