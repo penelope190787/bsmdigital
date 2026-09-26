@@ -58,5 +58,10 @@ Publicado ao vivo na Vercel pela própria Penélope, confirmado no ar:
 
 Esses dois links são os que entram no PDF/entrega final do kit e no order bump.
 
+## Checklist de Segurança
+Concluído, dentro do arquivo do Modelador. Fontes usadas:
+- TikTok Shop: Content Policy do seller center dos Estados Unidos e da União Europeia (não achei versão pública específica do Brasil, avisar a Penélope para conferir antes de publicar). Pontos: proibido prometer resultado garantido, alegação de saúde sem comprovação, comparação de preço ou com concorrente, urgência/escassez falsa, preço "original" inflado, depoimento fabricado ou incentivado sem aviso, filtro que finge resultado, superlativo sem comprovação.
+- CONAR: Guia de Marketing e Publicidade por Influenciadores Digitais, versão mais atual encontrada (2026, já cita a Lei do ECA Digital nº 15.211/2025). Afiliados estão explicitamente cobertos pelo guia. Pontos: identificar sempre publicidade (ferramenta da plataforma ou "#publicidade"/"#publi" visível sem precisar clicar em "ver mais"), avisar mesmo quando o produto foi recebido de graça, depoimento tem que ser de experiência real, cuidado redobrado se alcança criança/adolescente, uso de IA não isenta responsabilidade nem pode fingir resultado.
+
 ## Próximo passo em andamento
-Falta: Checklist de Segurança (bônus, depende de checar regras da TikTok Shop e do CONAR). Manual de Adaptação e Gravação já concluído, dentro do arquivo do Modelador.
+Todos os módulos do kit principal e os dois bônus do Modelador estão concluídos. Falta decidir o formato final de entrega (PDF interativo ligando para os links da Vercel) e revisar a promessa/nome antes de lançar.
