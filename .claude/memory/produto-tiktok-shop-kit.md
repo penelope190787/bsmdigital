@@ -67,5 +67,13 @@ Concluído, dentro do arquivo do Modelador. Fontes usadas:
 - TikTok Shop: Content Policy do seller center dos Estados Unidos e da União Europeia (não achei versão pública específica do Brasil, avisar a Penélope para conferir antes de publicar). Pontos: proibido prometer resultado garantido, alegação de saúde sem comprovação, comparação de preço ou com concorrente, urgência/escassez falsa, preço "original" inflado, depoimento fabricado ou incentivado sem aviso, filtro que finge resultado, superlativo sem comprovação.
 - CONAR: Guia de Marketing e Publicidade por Influenciadores Digitais, versão mais atual encontrada (2026, já cita a Lei do ECA Digital nº 15.211/2025). Afiliados estão explicitamente cobertos pelo guia. Pontos: identificar sempre publicidade (ferramenta da plataforma ou "#publicidade"/"#publi" visível sem precisar clicar em "ver mais"), avisar mesmo quando o produto foi recebido de graça, depoimento tem que ser de experiência real, cuidado redobrado se alcança criança/adolescente, uso de IA não isenta responsabilidade nem pode fingir resultado.
 
+## Bônus Variação de Ângulos
+Terceiro bônus do Radar, colocado como 1º na ordem das abas e na página de vendas. Prompt próprio: pega o roteiro final e devolve 3 ângulos de filmagem (Depoimento Direto, Demonstração em Uso, Cena Encenada/POV), com instrução de como filmar cada um. Interativo, com campo para colar o roteiro e botão de copiar, igual ao Radar.
+
+## Página de vendas
+Copy escrita com o skill /direct-response-copy, seguindo edições detalhadas da Penélope. Publicada em https://kit-tiktok-shop-modelador.vercel.app/vendas (mesmo repositório do produto, arquivo vendas.html). Preço: de R$97 por R$57 (lançamento), garantia de 7 dias. Botão de CTA ainda aponta para "#" com um comentário TODO no código, precisa trocar pelo link de checkout real da Kiwify assim que existir.
+
+Ponto que ajustei e sinalizei para a Penélope: a headline que ela pediu tinha "estrutura validada nos EUA", removi essa parte porque não existe validação real por trás dessa afirmação, e isso contradiz o próprio Checklist de Segurança que construímos (proibe alegação sem comprovação). Headline final: "Não invente o que vai gravar. Use a estrutura que faz vídeos viralizarem e venderem muito!"
+
 ## Próximo passo em andamento
-Todos os módulos do kit principal e os dois bônus do Modelador estão concluídos. Falta decidir o formato final de entrega (PDF interativo ligando para os links da Vercel) e revisar a promessa/nome antes de lançar.
+Falta: link real de checkout da Kiwify para os botões da página de vendas, e decidir se a Biblioteca de Estruturas (15 estruturas já escritas, ver biblioteca-estruturas-tiktok-shop.md) vira uma aba dentro do mesmo produto ou fica só no PDF/guia.
