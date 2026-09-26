@@ -24,6 +24,7 @@ Transcript365 (transcript365.com), página dedicada ao TikTok: https://www.trans
 ## Entregáveis já construídos
 - Deck do esqueleto do infoproduto: https://claude.ai/artifact/A72RdewsKF8KNGZ5dpeAWE
 - Ferramenta interativa do Modelador (testada e aprovada): https://claude.ai/artifact/C9oQkuqCeoMHM5qUpDg5iv
+- Banco de 100 Ganchos, produto do order bump, com botão de copiar em cada gancho: https://claude.ai/artifact/TJzXHikfrw8Dp7bJHRnrr1
 
 ## Pendências antes de produzir o material final
 - Confirmar regras atuais da TikTok Shop sobre alegações, comparações e conteúdo original.
@@ -37,5 +38,8 @@ Transcript365 (transcript365.com), página dedicada ao TikTok: https://www.trans
 ## Biblioteca de Estruturas
 Concluída e aprovada, 15 estruturas completas (quando usar, esqueleto por segundos, exemplo preenchido). Conteúdo integral em `.claude/memory/biblioteca-estruturas-tiktok-shop.md`. Falta apenas passar para o formato final do kit (PDF/página).
 
+## Banco de 100 Ganchos
+Concluído e publicado como produto próprio (order bump), 100 ganchos em 8 intenções: Curiosidade, Identificação com a dor, Urgência e escassez, Prova social, Confronto e contra-senso, Economia, Novidade e descoberta, Pergunta direta. Lacunas padrão: [produto], [problema], [preço], [alternativa cara], [tarefa], [crença comum], [ação relacionada ao problema].
+
 ## Próximo passo em andamento
-Seguir para o Banco de 100 Ganchos (order bump), organizado em 8 intenções ainda não definidas.
+Falta: Manual de Adaptação e Gravação (bônus do Modelador), Checklist de Segurança (bônus, depende de checar regras da TikTok Shop e do CONAR), e Exemplos completos (3 exemplos ponta a ponta).
