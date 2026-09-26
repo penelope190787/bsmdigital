@@ -83,5 +83,7 @@ Bug corrigido no produto principal: `.tabpanel{display:flex}` tinha a mesma espe
 
 Terceira rodada de ajustes na página de vendas: headline trocada para "Não invente o que vai gravar. Copie e cole a mesma estrutura dos vídeos virais que vendem muito!", caixa de oferta agora tem a chamada "Veja tudo o que você vai levar hoje pelo preço exclusivo de lançamento" com os 7 itens em lista vertical destacada, e o preço ficou só "De R$97,00 por apenas R$57,00 (preço promocional de lançamento)", sem a frase "tudo isso custaria".
 
+Bug importante corrigido: os 3 arquivos (index.html, comece-por-aqui.html, vendas.html) eram só fragmentos de HTML, sem `<!DOCTYPE html>`, `<html>`, `<head>` nem `<meta name="viewport">`. O Claude Artifact embrulha isso automaticamente, mas a Vercel serve o arquivo puro, então no celular tudo abria em modo desktop, exigindo zoom para ler. Corrigido nos três arquivos e confirmado ao vivo (viewport presente, tamanhos de preço ajustados, "Acesso seguro e imediato" abaixo da garantia).
+
 ## Próximo passo em andamento
 Falta: link real de checkout da Kiwify para os botões da página de vendas, e decidir se a Biblioteca de Estruturas (15 estruturas já escritas, ver biblioteca-estruturas-tiktok-shop.md) vira uma aba dentro do mesmo produto ou fica só no PDF/guia.
