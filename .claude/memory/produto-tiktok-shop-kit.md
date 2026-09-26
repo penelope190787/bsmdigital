@@ -48,7 +48,9 @@ Concluído: 3 produtos (escova secadora iônica, organizador de temperos girató
 ## Hospedagem e entrega
 Exemplos Completos e Manual de Adaptação e Gravação foram incorporados dentro do arquivo do Modelador (mesmo produto, kit principal), organizados em abas: aba 1 "Modelador" (ferramenta + Exemplos Completos), aba 2 "Manual de Adaptação e Gravação", aba 3 "Checklist de Segurança". Banco de 100 Ganchos continua em arquivo separado, por ser order bump vendido à parte.
 
-Nome "Modelador" em revisão, a Penélope achou pouco viral. Sugestões dadas: Raio-X do Vídeo, Roteiro Clone, Fórmula Viral, IA Roteirista, Decodificador de Vídeo. Aguardando escolha antes de renomear título, repositório e domínio.
+Nome definido: "Radar de Vídeo Viral" (substitui "Modelador" em todo o texto visível do produto). Repositório e domínio na Vercel continuam com o nome técnico antigo (kit-tiktok-shop-modelador), isso é só identificador interno e não aparece para quem compra.
+
+Página "Comece por Aqui" criada: capa de 1 tela, com a promessa curta e botão "Começar agora" que leva para o Radar de Vídeo Viral. Efeito visual glitch (ciano/rosa) feito só com CSS (text-shadow), sem usar o logotipo oficial do TikTok, para evitar problema de marca registrada por sugerir afiliação com o TikTok que não existe. Publicada em: https://kit-tiktok-shop-modelador.vercel.app/comece-por-aqui
 
 Código-fonte salvo em dois repositórios privados no GitHub da Penélope:
 - Modelador (com Exemplos Completos e Manual): https://github.com/penelope190787/kit-tiktok-shop-modelador
