@@ -85,5 +85,13 @@ Terceira rodada de ajustes na página de vendas: headline trocada para "Não inv
 
 Bug importante corrigido: os 3 arquivos (index.html, comece-por-aqui.html, vendas.html) eram só fragmentos de HTML, sem `<!DOCTYPE html>`, `<html>`, `<head>` nem `<meta name="viewport">`. O Claude Artifact embrulha isso automaticamente, mas a Vercel serve o arquivo puro, então no celular tudo abria em modo desktop, exigindo zoom para ler. Corrigido nos três arquivos e confirmado ao vivo (viewport presente, tamanhos de preço ajustados, "Acesso seguro e imediato" abaixo da garantia).
 
+Banco de 100 Ganchos também tinha o mesmo bug de viewport, corrigido, e agora usa tema claro (fundo branco) por pedido da Penélope, com tons escuros de ciano (#007580) e rosa (#C4003D) só para texto, mantendo contraste legível. Confirmado ao vivo.
+
+Comece por Aqui: promessa atualizada para "Comece agora a usar a MESMA estrutura dos vídeos que já vendem muito para os seus produtos!", confirmado ao vivo.
+
+Abas do Radar de Vídeo Viral: botões inativos agora são retângulos brancos (antes eram escuros, pouco visíveis) para dar mais destaque aos bônus clicáveis.
+
+Página de vendas: "R$" e "57,00" seguram juntos na mesma linha com espaço não quebrável, para não separar em telas estreitas.
+
 ## Próximo passo em andamento
 Falta: link real de checkout da Kiwify para os botões da página de vendas, e decidir se a Biblioteca de Estruturas (15 estruturas já escritas, ver biblioteca-estruturas-tiktok-shop.md) vira uma aba dentro do mesmo produto ou fica só no PDF/guia.
