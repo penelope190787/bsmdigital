@@ -52,7 +52,11 @@ Código-fonte salvo em dois repositórios privados no GitHub da Penélope:
 - Modelador (com Exemplos Completos e Manual): https://github.com/penelope190787/kit-tiktok-shop-modelador
 - Banco de 100 Ganchos: https://github.com/penelope190787/kit-tiktok-shop-ganchos
 
-Vercel: a conexão da Penélope está ativa na conta dela, mas o conector só é lido quando uma sessão nova começa, então esta sessão não conseguiu autenticar. Deploy pendente, seja via sessão nova do Claude, seja pela própria Penélope importando os repositórios em vercel.com/new (zero configuração, é só HTML estático).
+Publicado ao vivo na Vercel pela própria Penélope, confirmado no ar:
+- Modelador (com Exemplos Completos e Manual): https://kit-tiktok-shop-modelador.vercel.app
+- Banco de 100 Ganchos: https://kit-tiktok-shop-ganchos.vercel.app
+
+Esses dois links são os que entram no PDF/entrega final do kit e no order bump.
 
 ## Próximo passo em andamento
-Falta: Manual de Adaptação e Gravação (bônus do Modelador), Checklist de Segurança (bônus, depende de checar regras da TikTok Shop e do CONAR).
+Falta: Checklist de Segurança (bônus, depende de checar regras da TikTok Shop e do CONAR). Manual de Adaptação e Gravação já concluído, dentro do arquivo do Modelador.
