@@ -46,7 +46,13 @@ Concluído e publicado como produto próprio (order bump), 100 ganchos em 8 inte
 Concluído: 3 produtos (escova secadora iônica, organizador de temperos giratório, kit de faixas elásticas), cada um com dados do produto, estrutura identificada (marcada como demonstração, não transcrição real) e roteiro final. Publicado como página própria.
 
 ## Hospedagem e entrega
-Cada peça interativa (Modelador, Banco de Ganchos, Exemplos Completos) é hoje um artifact do Claude, privado por padrão. Para vender separado, a Penélope precisa: (1) usar o Share de cada página para gerar um link público, com a ressalva de confirmar os termos de uso do Claude para revenda comercial desse link, ou (2) hospedar o HTML em uma plataforma própria (Vercel, Netlify, GitHub Pages ou domínio próprio) para ter um link estável e com a marca dela. Ainda não decidido qual caminho seguir.
+Exemplos Completos e Manual de Adaptação e Gravação foram incorporados dentro do arquivo do Modelador (mesmo produto, kit principal). Banco de 100 Ganchos continua em arquivo separado, por ser order bump vendido à parte.
+
+Código-fonte salvo em dois repositórios privados no GitHub da Penélope:
+- Modelador (com Exemplos Completos e Manual): https://github.com/penelope190787/kit-tiktok-shop-modelador
+- Banco de 100 Ganchos: https://github.com/penelope190787/kit-tiktok-shop-ganchos
+
+Vercel: a conexão da Penélope está ativa na conta dela, mas o conector só é lido quando uma sessão nova começa, então esta sessão não conseguiu autenticar. Deploy pendente, seja via sessão nova do Claude, seja pela própria Penélope importando os repositórios em vercel.com/new (zero configuração, é só HTML estático).
 
 ## Próximo passo em andamento
 Falta: Manual de Adaptação e Gravação (bônus do Modelador), Checklist de Segurança (bônus, depende de checar regras da TikTok Shop e do CONAR).
