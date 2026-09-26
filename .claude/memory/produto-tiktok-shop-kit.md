@@ -46,7 +46,9 @@ Concluído e publicado como produto próprio (order bump), 100 ganchos em 8 inte
 Concluído: 3 produtos (escova secadora iônica, organizador de temperos giratório, kit de faixas elásticas), cada um com dados do produto, estrutura identificada (marcada como demonstração, não transcrição real) e roteiro final. Publicado como página própria.
 
 ## Hospedagem e entrega
-Exemplos Completos e Manual de Adaptação e Gravação foram incorporados dentro do arquivo do Modelador (mesmo produto, kit principal). Banco de 100 Ganchos continua em arquivo separado, por ser order bump vendido à parte.
+Exemplos Completos e Manual de Adaptação e Gravação foram incorporados dentro do arquivo do Modelador (mesmo produto, kit principal), organizados em abas: aba 1 "Modelador" (ferramenta + Exemplos Completos), aba 2 "Manual de Adaptação e Gravação", aba 3 "Checklist de Segurança". Banco de 100 Ganchos continua em arquivo separado, por ser order bump vendido à parte.
+
+Nome "Modelador" em revisão, a Penélope achou pouco viral. Sugestões dadas: Raio-X do Vídeo, Roteiro Clone, Fórmula Viral, IA Roteirista, Decodificador de Vídeo. Aguardando escolha antes de renomear título, repositório e domínio.
 
 Código-fonte salvo em dois repositórios privados no GitHub da Penélope:
 - Modelador (com Exemplos Completos e Manual): https://github.com/penelope190787/kit-tiktok-shop-modelador
