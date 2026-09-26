@@ -93,5 +93,7 @@ Abas do Radar de Vídeo Viral: botões inativos agora são retângulos brancos (
 
 Página de vendas: "R$" e "57,00" seguram juntos na mesma linha com espaço não quebrável, para não separar em telas estreitas.
 
+Checklist de Segurança reescrita e ampliada com conteúdo detalhado que a própria Penélope forneceu (não veio de busca minha): agora tem aviso de contexto (remoção de vídeo, retenção de comissão, banimento de perfil, sanções do CONAR), 4 subtópicos de regras do TikTok Shop (Promessas Exageradas, IA e Automação, Preço/Estoque/Comparações, Produtos Restritos) e 3 subtópicos de regras do CONAR (Transparência, Veracidade, Proteção Infanto-Juvenil), mais uma seção de dicas práticas. Corrigido o gênero: sempre "o TikTok Shop" (masculino), nunca "a TikTok Shop". Como esse conteúdo veio pronto da Penélope e não foi verificado por mim em fonte oficial nesta rodada, mantenho a pendência de confirmar antes de tratar como versão final e definitiva.
+
 ## Próximo passo em andamento
 Falta: link real de checkout da Kiwify para os botões da página de vendas, e decidir se a Biblioteca de Estruturas (15 estruturas já escritas, ver biblioteca-estruturas-tiktok-shop.md) vira uma aba dentro do mesmo produto ou fica só no PDF/guia.
