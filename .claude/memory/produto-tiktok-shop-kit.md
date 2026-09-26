@@ -79,5 +79,9 @@ Segunda rodada de ajustes na página de vendas aplicada: espaçamento entre seç
 
 Correção de infraestrutura: os links sem ".html" (/vendas, /comece-por-aqui) davam 404 na Vercel porque cleanUrls não estava habilitado por padrão. Corrigido com um arquivo vercel.json ({"cleanUrls": true}) na raiz do repositório kit-tiktok-shop-modelador. Confirmado no ar depois da correção.
 
+Bug corrigido no produto principal: `.tabpanel{display:flex}` tinha a mesma especificidade do seletor `[hidden]`, então as abas escondidas apareciam todas juntas. Corrigido com `.tabpanel[hidden]{display:none}` e os botões de aba viraram pills preenchidos (fundo ciano quando ativos) para ficar óbvio que são clicáveis. Confirmado pela própria Penélope que já funciona.
+
+Terceira rodada de ajustes na página de vendas: headline trocada para "Não invente o que vai gravar. Copie e cole a mesma estrutura dos vídeos virais que vendem muito!", caixa de oferta agora tem a chamada "Veja tudo o que você vai levar hoje pelo preço exclusivo de lançamento" com os 7 itens em lista vertical destacada, e o preço ficou só "De R$97,00 por apenas R$57,00 (preço promocional de lançamento)", sem a frase "tudo isso custaria".
+
 ## Próximo passo em andamento
 Falta: link real de checkout da Kiwify para os botões da página de vendas, e decidir se a Biblioteca de Estruturas (15 estruturas já escritas, ver biblioteca-estruturas-tiktok-shop.md) vira uma aba dentro do mesmo produto ou fica só no PDF/guia.
