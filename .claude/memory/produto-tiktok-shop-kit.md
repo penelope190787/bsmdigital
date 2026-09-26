@@ -77,5 +77,7 @@ Ponto que ajustei e sinalizei para a Penélope: a headline que ela pediu tinha "
 
 Segunda rodada de ajustes na página de vendas aplicada: espaçamento entre seções reduzido, headline com quebra de linha, itens do kit explicados individualmente (sem "Comece por Aqui" nessa lista específica), bônus com nova frase de abertura, seção de exemplo trocada por comparação antes/depois (prompt genérico vs. Radar), FAQ "É curso?" incluída, e caixa de oferta agora lista tudo que a pessoa recebe antes de mostrar De R$97 por R$57.
 
+Correção de infraestrutura: os links sem ".html" (/vendas, /comece-por-aqui) davam 404 na Vercel porque cleanUrls não estava habilitado por padrão. Corrigido com um arquivo vercel.json ({"cleanUrls": true}) na raiz do repositório kit-tiktok-shop-modelador. Confirmado no ar depois da correção.
+
 ## Próximo passo em andamento
 Falta: link real de checkout da Kiwify para os botões da página de vendas, e decidir se a Biblioteca de Estruturas (15 estruturas já escritas, ver biblioteca-estruturas-tiktok-shop.md) vira uma aba dentro do mesmo produto ou fica só no PDF/guia.
