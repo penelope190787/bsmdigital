@@ -112,5 +112,7 @@ Nome da ferramenta principal trocado de "Radar de Vídeo Viral" para "Gerador de
 
 Tudo confirmado ao vivo via scrape (/, /vendas, /comece-por-aqui) depois da publicação.
 
+Banco de 100 Ganchos (kit-tiktok-shop-ganchos.vercel.app) também renomeado de "Kit Roteiro Pronto para TikTok Shop" para "Central de Criação para TikTok Shop" (eyebrow e rodapé), completando a renomeação em todos os produtos.
+
 ## Próximo passo em andamento
 Falta: link real de checkout da Kiwify para os botões da página de vendas, decidir se a Biblioteca de Estruturas (15 estruturas já escritas, ver biblioteca-estruturas-tiktok-shop.md) vira uma aba dentro do mesmo produto ou fica só no PDF/guia, e resolver a proteção de acesso via Cakto (webhook + verificação real) quando Penélope quiser avançar.
