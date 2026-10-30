@@ -2,10 +2,10 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8" />
-<title>BSM Digital — Consultoria e Sistemas de Vendas para Infoprodutores</title>
+<title>BSM Digital: Consultoria e Sistemas de Vendas para Infoprodutores</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="theme-color" content="#0d0d0d" />
-<meta name="description" content="Consultoria em posicionamento, oferta e sistemas de vendas para infoprodutores. Transforme seu conhecimento em uma engrenagem de produtos digitais que vende todos os dias." />
+<meta name="description" content="Consultoria, mentoria e sistemas de vendas para infoprodutores, com atendente de IA no WhatsApp, funil completo, site de autoridade e e-books com a sua marca." />
 <link rel="canonical" href="https://www.bsmdigital.shop/" />
 
 <link rel="icon" href="/favicon.ico" sizes="any" />
@@ -117,6 +117,62 @@
       "name": "Sprint de Conversão Digital",
       "provider": { "@id": "https://www.bsmdigital.shop/#organization" },
       "description": "Análise dos principais pontos de perda de oportunidades de venda e implementação da correção em até 7 dias.",
+      "areaServed": "BR"
+    },
+    {
+      "@type": "Service",
+      "name": "Atendente com IA no WhatsApp",
+      "provider": { "@id": "https://www.bsmdigital.shop/#organization" },
+      "description": "Responde as primeiras dúvidas, identifica quem tem interesse de verdade e marca a consulta na agenda do especialista.",
+      "areaServed": "BR"
+    },
+    {
+      "@type": "Service",
+      "name": "Funil completo de captação de clientes",
+      "provider": { "@id": "https://www.bsmdigital.shop/#organization" },
+      "description": "Página de captura, formulário, WhatsApp, cadastro de clientes, mensagens de acompanhamento e relatórios.",
+      "areaServed": "BR"
+    },
+    {
+      "@type": "Service",
+      "name": "Site de autoridade para ser achado no Google",
+      "provider": { "@id": "https://www.bsmdigital.shop/#organization" },
+      "description": "Site feito para aparecer nas pesquisas do Google e levar quem pesquisa até o contato do especialista.",
+      "areaServed": "BR"
+    },
+    {
+      "@type": "Service",
+      "name": "Aplicativo ou página interativa que atrai clientes",
+      "provider": { "@id": "https://www.bsmdigital.shop/#organization" },
+      "description": "Ferramenta simples, como um teste ou uma calculadora, que reúne o contato de quem tem interesse real.",
+      "areaServed": "BR"
+    },
+    {
+      "@type": "Service",
+      "name": "E-books e listas de verificação com a sua marca",
+      "provider": { "@id": "https://www.bsmdigital.shop/#organization" },
+      "description": "Materiais digitais prontos, com a marca do criador ou consultor.",
+      "areaServed": "BR"
+    },
+    {
+      "@type": "Service",
+      "name": "Central de conhecimento com IA",
+      "provider": { "@id": "https://www.bsmdigital.shop/#organization" },
+      "description": "Inteligência artificial treinada com o conteúdo do próprio especialista para responder às dúvidas do público.",
+      "areaServed": "BR"
+    },
+    {
+      "@type": "Service",
+      "name": "Pós-venda e indicações automáticas",
+      "provider": { "@id": "https://www.bsmdigital.shop/#organization" },
+      "description": "Mensagens que acompanham o cliente depois da compra e incentivam indicações.",
+      "areaServed": "BR"
+    },
+    {
+      "@type": "Service",
+      "name": "Mentoria para montar a esteira de produtos e o funil de vendas",
+      "provider": { "@id": "https://www.bsmdigital.shop/#organization" },
+      "description": "Acompanhamento passo a passo para implementar a esteira de produtos e o funil de vendas.",
       "areaServed": "BR"
     }
   ]
@@ -675,9 +731,13 @@
   #servicos{ padding-top:2.2rem; }
   #servicos h2.section-title{ font-family:var(--font-title); }
   .services-grid{
-    display:grid; grid-template-columns:repeat(3,1fr); gap:24px;
+    display:grid; grid-template-columns:repeat(6,1fr); gap:24px;
     margin-top:2rem;
   }
+  .services-grid .service{ grid-column:span 2; }
+  /* quando sobram 2 cartões na última linha, eles dividem a linha ao meio */
+  .services-grid .service:nth-last-child(2):nth-child(3n+1),
+  .services-grid .service:last-child:nth-child(3n+2){ grid-column:span 3; }
   .service{
     background:rgba(255,255,255,.01) !important;
     border:1px solid rgba(212,175,55,.15) !important;
@@ -706,7 +766,12 @@
     margin:0; font-family:var(--font-garamond);
     color:var(--paper-dim); font-size:1.1rem; line-height:1.6;
   }
-  @media (max-width:860px){ .services-grid{ grid-template-columns:repeat(2,1fr); } }
+  @media (max-width:860px){
+    .services-grid{ grid-template-columns:repeat(2,1fr); }
+    .services-grid .service,
+    .services-grid .service:nth-last-child(2):nth-child(3n+1),
+    .services-grid .service:last-child:nth-child(3n+2){ grid-column:auto; }
+  }
   @media (max-width:560px){ .services-grid{ grid-template-columns:1fr; } }
 
   /* rodapé */
@@ -936,6 +1001,38 @@
         <div class="service">
           <h3><span class="service-emoji" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M13 2.5L5 13.5h6l-1 8 8-11h-6l1-8Z"/></svg></span>Sprint de Conversão Digital</h3>
           <p>Análise dos principais pontos de perda de oportunidades de venda e implementação da correção em até 7 dias.</p>
+        </div>
+        <div class="service">
+          <h3><span class="service-emoji" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 5h16v11H9l-5 4V5Z"/><line x1="8" y1="9" x2="16" y2="9"/><line x1="8" y1="12.5" x2="13" y2="12.5"/></svg></span>Atendente com IA no WhatsApp</h3>
+          <p>Responde as primeiras dúvidas de quem chama no WhatsApp, identifica quem tem interesse de verdade e marca a consulta na agenda do especialista.</p>
+        </div>
+        <div class="service">
+          <h3><span class="service-emoji" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="14" rx="2"/><line x1="3" y1="8.5" x2="21" y2="8.5"/><line x1="8" y1="21" x2="16" y2="21"/></svg></span>Site de autoridade para ser achado no Google</h3>
+          <p>Um site feito para aparecer quando o seu cliente pesquisa no Google, mostrar que você é referência no assunto e levar a pessoa até o seu contato.</p>
+        </div>
+        <div class="service">
+          <h3><span class="service-emoji" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="4" y1="7" x2="20" y2="7"/><circle cx="9" cy="7" r="2" fill="var(--bg-panel)"/><line x1="4" y1="17" x2="20" y2="17"/><circle cx="15" cy="17" r="2" fill="var(--bg-panel)"/></svg></span>Aplicativo ou página interativa que atrai clientes</h3>
+          <p>Uma ferramenta simples, como um teste ou uma calculadora, que a pessoa usa na internet e que deixa com você o contato de quem tem interesse real.</p>
+        </div>
+        <div class="service">
+          <h3><span class="service-emoji" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 4h10a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3V4Z"/><line x1="8" y1="17" x2="18" y2="17"/></svg></span>E-books e listas de verificação com a sua marca</h3>
+          <p>Materiais digitais prontos, com o seu nome e a sua identidade visual, para você oferecer ao seu público sem produzir do zero.</p>
+        </div>
+        <div class="service">
+          <h3><span class="service-emoji" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6"/><path d="M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg></span>Central de conhecimento com IA</h3>
+          <p>Uma inteligência artificial treinada com o seu próprio conteúdo, que responde às dúvidas do seu público com base no que você ensina.</p>
+        </div>
+        <div class="service">
+          <h3><span class="service-emoji" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 3l3 3-3 3"/><path d="M4 11V9a3 3 0 0 1 3-3h13"/><path d="M7 21l-3-3 3-3"/><path d="M20 13v2a3 3 0 0 1-3 3H4"/></svg></span>Pós-venda e indicações automáticas</h3>
+          <p>Mensagens que acompanham o cliente depois da compra e incentivam quem ficou satisfeito a indicar você para outras pessoas.</p>
+        </div>
+        <div class="service">
+          <h3><span class="service-emoji" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 4h18l-7 8v7l-4 2v-9L3 4Z"/></svg></span>Funil completo de captação de clientes</h3>
+          <p>Página de captura, formulário, WhatsApp, cadastro de clientes, mensagens de acompanhamento e relatórios, tudo ligado em um só caminho, para você ver de onde vêm os seus clientes.</p>
+        </div>
+        <div class="service">
+          <h3><span class="service-emoji" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.5 2.7-6 6-6s6 2.5 6 6"/><path d="M16 5.5a3 3 0 0 1 0 5.8"/><path d="M18 14.2c1.8.8 3 2.6 3 5.8"/></svg></span>Mentoria para montar a sua esteira de produtos e o funil de vendas</h3>
+          <p>Acompanhamento passo a passo para você montar e colocar no ar a sua esteira de produtos (a sequência de ofertas que leva o cliente até o produto principal) e o seu funil de vendas.</p>
         </div>
       </div>
     </div>
